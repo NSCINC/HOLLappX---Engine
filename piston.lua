@@ -22,7 +22,7 @@ local function investInPlan(planName, amount)
     print("Investing in plan:", planName)
     -- Suponha que `msg.sender` é um endereço simulado para o investidor
     local investorAddress = "0x3333333333333333333333333333333333333333"
-    engine:invest(planName, amount)
+    engine:invest(planName, amount, investorAddress)
     print("Investment completed successfully!")
 end
 
